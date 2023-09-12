@@ -13,4 +13,5 @@ print('x1=',x1)
 print('x2=(-b-delta**(1/2))/(2*a)')
 x2=(-b-delta**(1/2))/(2*a)
 print('x2=',x2)
+print("ola")
 
