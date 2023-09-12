@@ -1,8 +1,8 @@
-print('a.x²=b.x+c')
+print('a.x²= b.x + c')
 a=int(input('Escolha o valor para a: '))
 b=int(input('Escolha o valor para b: '))
 c=int(input('Escolha o valor para c: '))
-print('{}.x²+({}).x+({})'.format(a,b,c))
+print('{}.x²+({}).x +({})'.format(a,b,c))
 delta=b**2-4*a*c
 print('delta = b²-4*a*c')
 print('delta = ({})²-4*({})*({})'.format(b,a,c))
