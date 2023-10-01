@@ -29,10 +29,18 @@ if questao==9:
             menor=a
             print(menor)
             x=x+1
-
+        else:
+            x+=1
         print(x)
     print("maior valor digitado:",maior,
           "menor valor digitado:",menor)
 #===================================================
-
-    
+if questao==10:
+    numero=int(input("digite"))
+    acu=0
+    dec=0
+    while numero>=1:
+        dec+=(numero%10)*(2**acu)
+        numero//=10
+        acu+=1
+    print(dec)
